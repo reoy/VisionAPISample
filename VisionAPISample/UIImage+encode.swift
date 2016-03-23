@@ -10,13 +10,13 @@ import UIKit
 
 extension UIImage {
     
-    func base64EncodeImage(image: UIImage) -> String {
-        var imagedata = UIImagePNGRepresentation(image)
+    func base64EncodeImage() -> String {
+        var imagedata = UIImagePNGRepresentation(self)
         
         if (imagedata?.length > 2097152) {
-            let oldSize: CGSize = image.size
+            let oldSize: CGSize = self.size
             let newSize: CGSize = CGSizeMake(800, oldSize.height / oldSize.width * 800)
-            imagedata = resizeImage(newSize, image: image)
+            imagedata = resizeImage(newSize, image: self)
         }
         
         return imagedata!.base64EncodedStringWithOptions(.EncodingEndLineWithCarriageReturn)
