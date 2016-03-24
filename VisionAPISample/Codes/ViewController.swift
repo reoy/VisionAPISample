@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func captureImage() {
-        SVProgressHUD.show()
+        SVProgressHUD.showWithStatus("Cloud Vision API\nに問い合わせ中", maskType: SVProgressHUDMaskType.Gradient)
         let connection = output.connectionWithMediaType(AVMediaTypeVideo)
         output.captureStillImageAsynchronouslyFromConnection(connection) { (buffer, error) -> Void in
             let data = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(buffer)

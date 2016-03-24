@@ -7,33 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FC78A211CA19A1F000F6ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC78A201CA19A1F000F6ADA /* AppDelegate.swift */; };
-		7FC78A231CA19A1F000F6ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC78A221CA19A1F000F6ADA /* ViewController.swift */; };
 		7FC78A261CA19A1F000F6ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC78A241CA19A1F000F6ADA /* Main.storyboard */; };
 		7FC78A281CA19A1F000F6ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC78A271CA19A1F000F6ADA /* Assets.xcassets */; };
 		7FC78A2B1CA19A1F000F6ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC78A291CA19A1F000F6ADA /* LaunchScreen.storyboard */; };
 		7FC78A331CA19A33000F6ADA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC78A321CA19A33000F6ADA /* AVFoundation.framework */; };
-		7FC78A351CA20DEE000F6ADA /* UIImage+encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC78A341CA20DEE000F6ADA /* UIImage+encode.swift */; };
-		A5264EFC1CA25E56003BB2AD /* VisionAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5264EFB1CA25E56003BB2AD /* VisionAPIClient.swift */; };
-		A5264EFE1CA2764F003BB2AD /* WikipediaAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5264EFD1CA2764F003BB2AD /* WikipediaAPIClient.swift */; };
-		A5264F011CA28151003BB2AD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5264F001CA28151003BB2AD /* APIClient.swift */; };
+		A5B32F4D1CA40D1700062D47 /* UIImage+encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B32F4C1CA40D1700062D47 /* UIImage+encode.swift */; };
+		A5B32F511CA40D2400062D47 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B32F4E1CA40D2400062D47 /* APIClient.swift */; };
+		A5B32F521CA40D2400062D47 /* VisionAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B32F4F1CA40D2400062D47 /* VisionAPIClient.swift */; };
+		A5B32F531CA40D2400062D47 /* WikipediaAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B32F501CA40D2400062D47 /* WikipediaAPIClient.swift */; };
+		A5B32F561CA40D2F00062D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B32F541CA40D2F00062D47 /* AppDelegate.swift */; };
+		A5B32F571CA40D2F00062D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B32F551CA40D2F00062D47 /* ViewController.swift */; };
+		A5B32F5A1CA40D8B00062D47 /* ApiKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B32F591CA40D8B00062D47 /* ApiKey.plist */; };
 		B8BF5B38C98BC7E54A45DBCB /* Pods_VisionAPISample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9F6A7BD0EF183CA8438D7C /* Pods_VisionAPISample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6EBBF496A06A7A39BEAF71E7 /* Pods-VisionAPISample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionAPISample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VisionAPISample/Pods-VisionAPISample.release.xcconfig"; sourceTree = "<group>"; };
 		7FC78A1D1CA19A1F000F6ADA /* VisionAPISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionAPISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FC78A201CA19A1F000F6ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FC78A221CA19A1F000F6ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7FC78A251CA19A1F000F6ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FC78A271CA19A1F000F6ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC78A2A1CA19A1F000F6ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FC78A2C1CA19A1F000F6ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FC78A321CA19A33000F6ADA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		7FC78A341CA20DEE000F6ADA /* UIImage+encode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+encode.swift"; sourceTree = "<group>"; };
-		A5264EFB1CA25E56003BB2AD /* VisionAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionAPIClient.swift; sourceTree = "<group>"; };
-		A5264EFD1CA2764F003BB2AD /* WikipediaAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaAPIClient.swift; sourceTree = "<group>"; };
-		A5264F001CA28151003BB2AD /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A5B32F4C1CA40D1700062D47 /* UIImage+encode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+encode.swift"; path = "Codes/UIImage+encode.swift"; sourceTree = "<group>"; };
+		A5B32F4E1CA40D2400062D47 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = Codes/APIClient.swift; sourceTree = "<group>"; };
+		A5B32F4F1CA40D2400062D47 /* VisionAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisionAPIClient.swift; path = Codes/VisionAPIClient.swift; sourceTree = "<group>"; };
+		A5B32F501CA40D2400062D47 /* WikipediaAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WikipediaAPIClient.swift; path = Codes/WikipediaAPIClient.swift; sourceTree = "<group>"; };
+		A5B32F541CA40D2F00062D47 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Codes/AppDelegate.swift; sourceTree = "<group>"; };
+		A5B32F551CA40D2F00062D47 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Codes/ViewController.swift; sourceTree = "<group>"; };
+		A5B32F591CA40D8B00062D47 /* ApiKey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKey.plist; sourceTree = "<group>"; };
 		AE9F6A7BD0EF183CA8438D7C /* Pods_VisionAPISample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisionAPISample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F2FBBA569A5E98D0AC9AF4 /* Pods-VisionAPISample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionAPISample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VisionAPISample/Pods-VisionAPISample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 		74216B6721B7D6A1F4401254 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FC78A321CA19A33000F6ADA /* AVFoundation.framework */,
 				AE9F6A7BD0EF183CA8438D7C /* Pods_VisionAPISample.framework */,
 			);
 			name = Frameworks;
@@ -62,7 +65,6 @@
 		7FC78A141CA19A1F000F6ADA = {
 			isa = PBXGroup;
 			children = (
-				7FC78A321CA19A33000F6ADA /* AVFoundation.framework */,
 				7FC78A1F1CA19A1F000F6ADA /* VisionAPISample */,
 				7FC78A1E1CA19A1F000F6ADA /* Products */,
 				99701FD54B0CCD1D9544B440 /* Pods */,
@@ -81,8 +83,8 @@
 		7FC78A1F1CA19A1F000F6ADA /* VisionAPISample */ = {
 			isa = PBXGroup;
 			children = (
-				7FC78A201CA19A1F000F6ADA /* AppDelegate.swift */,
-				7FC78A221CA19A1F000F6ADA /* ViewController.swift */,
+				A5B32F541CA40D2F00062D47 /* AppDelegate.swift */,
+				A5B32F551CA40D2F00062D47 /* ViewController.swift */,
 				A5264EFF1CA28144003BB2AD /* APIClient */,
 				A5264EF81CA2530E003BB2AD /* View */,
 				7FC78A361CA20E03000F6ADA /* Extension */,
@@ -90,6 +92,7 @@
 				7FC78A271CA19A1F000F6ADA /* Assets.xcassets */,
 				7FC78A291CA19A1F000F6ADA /* LaunchScreen.storyboard */,
 				7FC78A2C1CA19A1F000F6ADA /* Info.plist */,
+				A5B32F591CA40D8B00062D47 /* ApiKey.plist */,
 			);
 			path = VisionAPISample;
 			sourceTree = "<group>";
@@ -97,7 +100,7 @@
 		7FC78A361CA20E03000F6ADA /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				7FC78A341CA20DEE000F6ADA /* UIImage+encode.swift */,
+				A5B32F4C1CA40D1700062D47 /* UIImage+encode.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -121,9 +124,9 @@
 		A5264EFF1CA28144003BB2AD /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
-				A5264F001CA28151003BB2AD /* APIClient.swift */,
-				A5264EFB1CA25E56003BB2AD /* VisionAPIClient.swift */,
-				A5264EFD1CA2764F003BB2AD /* WikipediaAPIClient.swift */,
+				A5B32F4E1CA40D2400062D47 /* APIClient.swift */,
+				A5B32F4F1CA40D2400062D47 /* VisionAPIClient.swift */,
+				A5B32F501CA40D2400062D47 /* WikipediaAPIClient.swift */,
 			);
 			name = APIClient;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC78A2B1CA19A1F000F6ADA /* LaunchScreen.storyboard in Resources */,
+				A5B32F5A1CA40D8B00062D47 /* ApiKey.plist in Resources */,
 				7FC78A281CA19A1F000F6ADA /* Assets.xcassets in Resources */,
 				7FC78A261CA19A1F000F6ADA /* Main.storyboard in Resources */,
 			);
@@ -250,12 +254,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FC78A231CA19A1F000F6ADA /* ViewController.swift in Sources */,
-				A5264EFC1CA25E56003BB2AD /* VisionAPIClient.swift in Sources */,
-				7FC78A351CA20DEE000F6ADA /* UIImage+encode.swift in Sources */,
-				7FC78A211CA19A1F000F6ADA /* AppDelegate.swift in Sources */,
-				A5264EFE1CA2764F003BB2AD /* WikipediaAPIClient.swift in Sources */,
-				A5264F011CA28151003BB2AD /* APIClient.swift in Sources */,
+				A5B32F571CA40D2F00062D47 /* ViewController.swift in Sources */,
+				A5B32F531CA40D2400062D47 /* WikipediaAPIClient.swift in Sources */,
+				A5B32F521CA40D2400062D47 /* VisionAPIClient.swift in Sources */,
+				A5B32F4D1CA40D1700062D47 /* UIImage+encode.swift in Sources */,
+				A5B32F561CA40D2F00062D47 /* AppDelegate.swift in Sources */,
+				A5B32F511CA40D2400062D47 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

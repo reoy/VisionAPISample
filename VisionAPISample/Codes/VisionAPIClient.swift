@@ -14,7 +14,12 @@ protocol VisionAPIClientDelegate: class {
 
 class VisionAPIClient: APIClient {
 
-    let API_KEY = "AIzaSyD4SqHVvj3L75Gxp4AQapYehYR4V8yb9zo"
+    let API_KEY: String = {
+        guard let plistPath = NSBundle.mainBundle().pathForResource("ApiKey", ofType: "plist") else { return "" }
+        let dic = NSDictionary(contentsOfFile: plistPath)
+        return dic?["VisionAPI"] as? String  ?? ""
+    }()
+
     weak var delegate: VisionAPIClientDelegate?
 
     func request(imageData: String) {
